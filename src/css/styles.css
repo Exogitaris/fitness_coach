@@ -10026,12 +10026,14 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fed136;
+  color: #fff;
+  background: #8c8c8c;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  color: #fff;
+  background: #8c8c8c;
   text-shadow: none;
 }
 
