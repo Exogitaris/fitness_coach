@@ -13,7 +13,7 @@
                                 <div class="bs bs-pricing" @mouseenter="firstEnable" @mouseleave="firstDisable" :class="{'bg-danger': this.firstToggled}">
                                     <div class="cotent">
                                         <h3 class="category">Coaching</h3>
-                                        <h1 class="bs-caption"><small style="font-size: 20px">CZK</small>500</h1>
+                                        <h1 class="bs-caption">500<small style="font-size: 20px">Kč</small></h1>
                                         <ul>
                                             <li><b>Nejlepší</b> Služba</li>
                                             <li><b>Nejlepší</b> Služba</li>
@@ -31,7 +31,7 @@
                                 <div class="bs bs-pricing" @mouseenter="secondEnable" @mouseleave="secondDisable" :class="{'bg-danger': this.secondToggled}">
                                     <div class="cotent">
                                         <h3 class="category">Online coaching</h3>
-                                        <h1 class="bs-caption"><small style="font-size: 20px">CZK</small>3500</h1>
+                                        <h1 class="bs-caption">3500<small style="font-size: 20px">Kč</small></h1>
                                         <ul>
                                             <li><b>Nejlepší</b> Služba</li>
                                             <li><b>Nejlepší</b> Služba</li>
@@ -48,7 +48,7 @@
                                 <div class="bs bs-pricing" @mouseenter="thirdEnable" @mouseleave="thirdDisable" :class="{'bg-danger': this.thirdToggled}">
                                     <div class="cotent">
                                         <h3 class="category">Příprava na závody</h3>
-                                        <h1 class="bs-caption"><small style="font-size: 20px">CZK</small>8000</h1>
+                                        <h1 class="bs-caption">8000<small style="font-size: 20px">Kč</small></h1>
                                         <ul>
                                             <li><b>Nejlepší</b> Služba</li>
                                             <li><b>Nejlepší</b> Služba</li>
