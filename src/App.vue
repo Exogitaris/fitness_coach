@@ -5,7 +5,7 @@
     <app-services></app-services>
     <app-modals></app-modals>
     <app-about></app-about>
-    <app-team></app-team>
+    <app-pricing></app-pricing>
     <app-contact></app-contact>
     <app-footer></app-footer>
   </div>
@@ -18,7 +18,7 @@
   import Portfolio from "./components/portfolio/Portfolio.vue";
   import Modals from "./components/portfolio/Modals.vue";
   import About from "./components/About.vue";
-  import Team from "./components/Team.vue";
+  import Pricing from "./components/Pricing.vue";
   import Contact from "./components/Contact.vue";
   import Footer from "./components/Footer.vue";
 
@@ -30,7 +30,7 @@
       appPortfolio: Portfolio,
       appModals: Modals,
       appAbout: About,
-      appTeam: Team,
+      appPricing: Pricing,
       appContact: Contact,
       appFooter: Footer
 
