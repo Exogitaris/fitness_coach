@@ -2473,6 +2473,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #1b1b1b;
   border-color: #1b1b1b;
+  border-radius: 50px;
 }
 .btn-primary:hover {
   color: #1b1b1b;
@@ -10084,6 +10085,7 @@ img::-moz-selection {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
+
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
@@ -10445,7 +10447,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: linear-gradient(to right bottom, rgba(255, 85, 85, 0.5), rgba(255, 70, 70, 0.5)), url("../assets/img/map-image.png");
+  background-image: linear-gradient(to right bottom, rgba(255, 85, 85, 0.8), rgba(255, 70, 70, 0.8)), url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
