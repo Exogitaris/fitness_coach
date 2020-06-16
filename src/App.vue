@@ -33,7 +33,6 @@
       appPricing: Pricing,
       appContact: Contact,
       appFooter: Footer
-
     }
   }
 </script>

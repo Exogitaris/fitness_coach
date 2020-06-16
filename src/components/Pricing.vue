@@ -22,7 +22,7 @@
                                             <li>Nejlepší služby</li>
                                             <li>Lorem ipsum je best</li>
                                         </ul>
-                                        <a href="#contact" class="btn" :class="[this.firstToggled ? 'btn-white' : 'btn-danger']">Sjednat</a>
+                                        <a href="#contact" class="btn" :class="[this.firstToggled ? 'btn-white' : 'btn-danger']" @click="firstOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                             <li>Nejlepší služby</li>
                                             <li>Lorem ipsum je best</li>
                                         </ul>
-                                        <a href="#contact" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']">Sjednat</a>
+                                        <a href="#contact" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                                             <li>Nejlepší služby</li>
                                             <li>Lorem ipsum je best</li>
                                         </ul>
-                                        <a href="#contact" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']">Sjednat</a>
+                                        <a href="#contact" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']" @click="thirdOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,12 +73,19 @@
 </template>
 
 <script>
+    import { eventBus } from '../main';
+
     export default {
         data() {
             return {
                 firstToggled: false,
                 secondToggled: false,
-                thirdToggled: false
+                thirdToggled: false,
+                options: {
+                    first: 'Coaching',
+                    second: 'Online Coaching',
+                    third: 'Příprava na závody'
+                }
             }
         },
         methods: {
@@ -99,7 +106,16 @@
             },
             thirdDisable() {
                 this.thirdToggled = false;
-            }
+            },
+            firstOption() {
+                eventBus.$emit('firstOptionSelected', this.options.first)
+            },
+            secondOption() {
+                eventBus.$emit('secondOptionSelected', this.options.second)
+            },
+            thirdOption() {
+                eventBus.$emit('thirdOptionSelected', this.options.third)
+            },
         }
     }
 </script>
