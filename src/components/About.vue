@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="page-section" id="about">
+        <section class="page-section bg-section-dark" id="about">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Moje zkušenosti</h2>

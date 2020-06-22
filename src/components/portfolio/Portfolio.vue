@@ -3,7 +3,7 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h2 class="section-heading text-uppercase" style="color: #1b1b1b">Portfolio</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
@@ -16,7 +16,7 @@
                                 <img class="img-fluid" src="../../assets/img/portfolio/01-thumbnail.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
+                                <div class="portfolio-caption-heading" style="color: #1b1b1b">Threads</div>
                                 <div class="portfolio-caption-subheading text-muted">Illustration</div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                                 <img class="img-fluid" src="../../assets/img/portfolio/02-thumbnail.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
+                                <div class="portfolio-caption-heading" style="color: #1b1b1b">Explore</div>
                                 <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                                 <img class="img-fluid" src="../../assets/img/portfolio/03-thumbnail.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
+                                <div class="portfolio-caption-heading" style="color: #1b1b1b">Finish</div>
                                 <div class="portfolio-caption-subheading text-muted">Identity</div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                                 <img class="img-fluid" src="../../assets/img/portfolio/04-thumbnail.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
+                                <div class="portfolio-caption-heading" style="color: #1b1b1b">Lines</div>
                                 <div class="portfolio-caption-subheading text-muted">Branding</div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                                 <img class="img-fluid" src="../../assets/img/portfolio/05-thumbnail.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
+                                <div class="portfolio-caption-heading" style="color: #1b1b1b">Southwest</div>
                                 <div class="portfolio-caption-subheading text-muted">Website Design</div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                 <img class="img-fluid" src="../../assets/img/portfolio/06-thumbnail.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
+                                <div class="portfolio-caption-heading" style="color: #1b1b1b">Window</div>
                                 <div class="portfolio-caption-subheading text-muted">Photography</div>
                             </div>
                         </div>
