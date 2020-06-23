@@ -1,10 +1,9 @@
 <template>
     <div>
-        <section class="page-section bg-light" id="team">
+        <section class="page-section bg-light" id="cenik">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase" style="color: #1b1b1b">Ceník služeb</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div id="bs-pricing-six" class="bs-pricing-four roomy-50 fix">
                     <div class="container">
@@ -12,60 +11,48 @@
                             <div class="col-md-4">
                                 <div class="bs bs-pricing" @mouseenter="firstEnable" @mouseleave="firstDisable" :class="{'bg-danger': this.firstToggled}">
                                     <div class="cotent">
-                                        <h3 class="category">Coaching</h3>
+                                        <h3 class="category">Osobní trénink</h3>
                                         <h1 class="bs-caption">500<small style="font-size: 20px">Kč</small></h1>
                                         <ul>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li>Nejlepší služby</li>
-                                            <li>Lorem ipsum je best</li>
+                                            <li><b>10</b> tréninků 4.500Kč</li>
+                                            <li><b>20</b> tréninků 8.500Kč</li>
+                                            <li>Konzultace za cenu tréninku</li>
                                         </ul>
                                         <a href="#contact" class="btn" :class="[this.firstToggled ? 'btn-white' : 'btn-danger']" @click="firstOption">Objednat</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="bs bs-pricing" @mouseenter="secondEnable" @mouseleave="secondDisable" :class="{'bg-danger': this.secondToggled}">
-                                    <div class="cotent">
-                                        <h3 class="category">Online coaching</h3>
-                                        <h1 class="bs-caption">3500<small style="font-size: 20px">Kč</small></h1>
-                                        <ul>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li>Nejlepší služby</li>
-                                            <li>Lorem ipsum je best</li>
-                                        </ul>
-                                        <a href="#contact" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="bs bs-pricing" @mouseenter="thirdEnable" @mouseleave="thirdDisable" :class="{'bg-danger': this.thirdToggled}">
                                     <div class="cotent">
-                                        <h3 class="category">Příprava na závody</h3>
-                                        <h1 class="bs-caption">8000<small style="font-size: 20px">Kč</small></h1>
+                                        <h3 class="category">Příprava na sportovní výkon</h3>
+                                        <h1 class="bs-caption"><small style="font-size: 20px">Od</small> 2600<small style="font-size: 20px">Kč/měs</small></h1>
                                         <ul>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li><b>Nejlepší</b> Služba</li>
-                                            <li>Nejlepší služby</li>
-                                            <li>Lorem ipsum je best</li>
+                                            <li>Kulturistika / fitness</li>
+                                            <li>Silový trojboj / strongman</li>
+                                            <li>Atletika</li>
+                                            <li>Vytrvalostní sporty</li>
                                         </ul>
                                         <a href="#contact" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']" @click="thirdOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-4">
+                                <div class="bs bs-pricing" @mouseenter="secondEnable" @mouseleave="secondDisable" :class="{'bg-danger': this.secondToggled}">
+                                    <div class="cotent">
+                                        <h3 class="category">Online coaching</h3>
+                                        <h1 class="bs-caption">2600<small style="font-size: 20px">Kč/měs</small></h1>
+                                        <ul>
+                                            <li><b>3 měsíce</b> 7.500Kč</li>
+                                            <li><b>6 měsíců</b> 15.000Kč</li>
+                                            <li><b>12 měsíců</b> 28.000Kč</li>
+                                        </ul>
+                                        <a href="#contact" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
             </div>
         </section>
@@ -82,9 +69,9 @@
                 secondToggled: false,
                 thirdToggled: false,
                 options: {
-                    first: 'Coaching',
+                    first: 'Osobní trénink',
                     second: 'Online Coaching',
-                    third: 'Příprava na závody'
+                    third: 'Příprava na sportovní výkon'
                 }
             }
         },

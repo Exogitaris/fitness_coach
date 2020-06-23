@@ -1,15 +1,14 @@
 <template>
     <div>
-        <section class="page-section" id="contact">
+        <section class="page-section" id="kontakt">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Jsi připraven na změnu?</h2>
+                    <h3 class="section-subheading text-muted">Tak vyplň tenhle formulář, nebo rovnou zavolej na +420 725 883 314.</h3>
                 </div>
                 <transition name="fade" mode="out-in">
-                    <div v-if="formMistake" class="alert alert-warning text-center" role="alert">
-                        <div v-if="mailError">Zadejte e-mail ve správném formátu.</div>
-                        <div v-else>Vyplňte prosím všechny kolonky.</div>
+                    <div v-if="formMistake" class="alert alert-danger text-center" role="alert">
+                        <div>{{ errorMessage }}</div>
                     </div>
                 </transition>
                 <form id="contactForm">
@@ -33,6 +32,12 @@
                                     <option v-for="option in options"> {{ option }} </option>
                                 </select>
                             </div>
+                            <br>
+                            <div class="form-check">
+                                <input type="checkbox" v-model="dataConfirm" class="form-check-input">
+                                <label class="form-check-label">Souhlasím se zpracováním osobních údajů</label>
+                            </div>
+                            <br><br>
                         </div>
                         <div class="col-md-6">
                             <label>Zpráva pro mně</label>
@@ -44,7 +49,7 @@
                 </form>
                 <div class="text-center">
                     <div id="success"></div>
-                    <a href="#contact" class="btn btn-primary btn-xl text-uppercase" @click="sendUserData">Jdu do toho!</a>
+                    <a href="#kontakt" class="btn btn-primary-contact btn-xl text-uppercase" @click="sendUserData">Jdu do toho!</a>
                 </div>
             </div>
         </section>
@@ -59,16 +64,17 @@
         data() {
             return {
                 formMistake: false,
-                mailError: false,
+                dataConfirm: true,
+                errorMessage: '',
                 userData: {
                     name: '',
                     email: '',
                     phone: '',
                     message: '',
-                    selectedOption: 'Coaching'
+                    selectedOption: 'Osobní trénink'
                 },
                 reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
-                options: ['Coaching', 'Online Coaching', 'Příprava na závody', 'Jiné']
+                options: ['Osobní trénink', 'Online Coaching', 'Příprava na sportovní výkon', 'Jiné']
             }
         },
         created() {
@@ -89,8 +95,15 @@
             sendUserData() {
                 if (this.userData.name === '' || this.userData.email === '' || this.userData.phone === '') {
                     this.formMistake = true
-                    this.mailError = false
-                } else if (this.reg.test(this.userData.email)) {
+                    this.errorMessage = 'Vyplňte prosím všechny kolonky.'
+                } else if (this.dataConfirm === false) {
+                    this.formMistake = true
+                    this.errorMessage = 'Před odesláním formuláře musíte souhlasit se zpracováním osobních údajů.'
+                } else if (this.userData.phone.length < 9) {
+                    this.formMistake = true
+                    this.errorMessage = 'Telefonní číslo musí obsahovat nejméně 9 číslic.'
+                }
+                else if (this.reg.test(this.userData.email)) {
                     const formData = {
                         email: this.userData.email,
                         name: this.userData.name,
@@ -109,7 +122,7 @@
                     this.$emit('form-posted');
                 } else {
                     this.formMistake = true
-                    this.mailError = true
+                    this.errorMessage = 'Zadejte e-mail ve správném formátu.'
                 }
             },
             onlyNumber ($event) {
@@ -117,7 +130,8 @@
                 if ((keyCode < 48 || keyCode > 57) && keyCode !== 46 && keyCode !== 43) { // 46 is dot
                     $event.preventDefault();
                 }
-            }
+            },
+
         }
     }
 </script>
