@@ -2,6 +2,7 @@
   <div id="page-top">
     <app-navigation></app-navigation>
     <app-masthead></app-masthead>
+    <app-michal></app-michal>
     <app-services></app-services>
     <app-about></app-about>
     <app-pricing></app-pricing>
@@ -15,6 +16,7 @@
 <script>
   import Navigation from "./components/Navigation.vue";
   import Masthead from "./components/Masthead.vue";
+  import Michal from "./components/Michal";
   import Services from "./components/Services.vue";
   import Portfolio from "./components/portfolio/Portfolio.vue";
   import Modals from "./components/portfolio/Modals.vue";
@@ -38,6 +40,7 @@
     components: {
       appNavigation: Navigation,
       appMasthead: Masthead,
+      appMichal: Michal,
       appServices: Services,
       appPortfolio: Portfolio,
       appModals: Modals,
