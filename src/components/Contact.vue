@@ -112,7 +112,7 @@
                         selectedOption: this.userData.selectedOption
                     }
                     console.log(formData)
-                    axios.post('/testovani/contactform/sendMail.php', formData)
+                    axios.post('/contactform/sendMail.php', formData)
                         .then(res => console.log(res))
                         .catch(error => console.log(error))
                     this.userData.name = ''

@@ -4,14 +4,14 @@
             <div class="container">
                 <div class="container">
                     <div class="intro">
-                        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="../assets/img/ms.png" alt="">
+                        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="../assets/img/ms3.png" alt="">
                         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                             <h2 class="section-heading mb-4">
                                 <span class="section-heading-upper">Michal Smetana</span>
                                 <br>
-                                <span class="section-heading-lower">Fitness Trenér</span>
+                                <h3 class="section-heading-lower">Fitness Trenér</h3>
                             </h2>
-                            <p class="mb-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris elementum mauris vitae tortor. Duis risus. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim.
+                            <p class="mb-3">Cvičení se věnuji již od roku 2012. Je to můj koníček, ale i životní styl. Věřím, že díky mému profesionálnímu a individuálnímu přístupu dokážu najít efektivní řešení pro každého z Vás. Jste připraveni na změnu?
                             </p>
                         </div>
                     </div>
@@ -32,28 +32,21 @@
 
     @media (min-width: 992px) {
         .intro .intro-img {
-            width: 75%;
+            width: 45%;
             float: right;
-            z-index: 1;
-            position: absolute;
         }
+
         .intro .intro-text {
             left: 0;
             width: 60%;
-            margin-top: 3rem;
-            position: relative;
+            margin-top: 16rem;
+            position: absolute;
         }
         .intro .intro-text .intro-button {
             width: 100%;
             left: 0;
-            position: relative;
+            position: absolute;
             bottom: -2rem;
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .intro .intro-text {
-            width: 45%;
         }
     }
 </style>

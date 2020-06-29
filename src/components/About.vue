@@ -12,7 +12,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2012</h4>
-                                <h4 class="subheading">Moje proměna od pýky na vrchol</h4>
+                                <h4 class="subheading">Moje proměna od píky na vrchol</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">Začal jsem se věnovat posilování a studiím těla. Všechny metody jsem se pokoušel aplikovat, překonávat a vyvracet na sobě. Podařilo se mi pochopit lidské tělo a pracovat s ním na špičkové úrovni.</p></div>
                         </div>
@@ -34,7 +34,7 @@
                                 <h4>Současnost</h4>
                                 <h4 class="subheading">Fitness trenér</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Vždycky byl můj sen uskutečňovat zázraky. To, že se posouváme dál a překračujeme hranice svých možností mě těší a vždycky bojuji za to aby moji klienti byli spokojení a dosahovali vysněných výsledků.</p></div>
+                            <div class="timeline-body"><p class="text-muted">Vždycky byl můj sen uskutečňovat zázraky. To, že se posouváme dál a překračujeme hranice svých možností mě těší a vždycky bojuji za to, aby moji klienti byli spokojení a dosahovali vysněných výsledků.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">

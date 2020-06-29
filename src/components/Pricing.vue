@@ -18,7 +18,7 @@
                                             <li><b>20</b> tréninků 8.500Kč</li>
                                             <li>Konzultace za cenu tréninku</li>
                                         </ul>
-                                        <a href="#contact" class="btn" :class="[this.firstToggled ? 'btn-white' : 'btn-danger']" @click="firstOption">Objednat</a>
+                                        <a href="#kontakt" class="btn" :class="[this.firstToggled ? 'btn-white' : 'btn-danger']" @click="firstOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@
                                             <li>Atletika</li>
                                             <li>Vytrvalostní sporty</li>
                                         </ul>
-                                        <a href="#contact" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']" @click="thirdOption">Objednat</a>
+                                        <a href="#kontakt" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']" @click="thirdOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                                             <li><b>6 měsíců</b> 15.000Kč</li>
                                             <li><b>12 měsíců</b> 28.000Kč</li>
                                         </ul>
-                                        <a href="#contact" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
+                                        <a href="#kontakt" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
                                     </div>
                                 </div>
                             </div>
