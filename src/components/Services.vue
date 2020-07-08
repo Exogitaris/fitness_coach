@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Služby</h2>
-                    <h3 class="section-subheading text-muted">Život je moc krátký na to, aby jsi se ve svém těle necítil dobře. Ozvi se mi a spolu dosáhneme tvých cílů.</h3>
+                    <h3 class="section-subheading text-muted">Život je moc krátký na to, aby ses ve svém těle necítil dobře. Ozvi se mi a spolu dosáhneme tvých cílů.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">

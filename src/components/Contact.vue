@@ -130,7 +130,7 @@
                 if ((keyCode < 48 || keyCode > 57) && keyCode !== 46 && keyCode !== 43) { // 46 is dot
                     $event.preventDefault();
                 }
-            },
+            }
 
         }
     }
