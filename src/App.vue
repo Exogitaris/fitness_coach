@@ -5,6 +5,8 @@
     <app-michal></app-michal>
     <app-services></app-services>
     <app-about></app-about>
+    <app-portfolio></app-portfolio>
+    <app-modals></app-modals>
     <app-pricing></app-pricing>
     <transition name="component-fade" mode="out-in">
       <component @form-posted="formCompleted" :is="formComponent"></component>
