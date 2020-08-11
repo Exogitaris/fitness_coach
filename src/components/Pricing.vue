@@ -8,7 +8,7 @@
                 <div id="bs-pricing-six" class="bs-pricing-four roomy-50 fix">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
                                 <div class="bs bs-pricing" @mouseenter="firstEnable" @mouseleave="firstDisable" :class="{'bg-danger': this.firstToggled}">
                                     <div class="cotent">
                                         <h3 class="category">Osobní trénink</h3>
@@ -22,14 +22,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="400" data-aos-once="true">
                                 <div class="bs bs-pricing" @mouseenter="thirdEnable" @mouseleave="thirdDisable" :class="{'bg-danger': this.thirdToggled}">
                                     <div class="cotent">
                                         <h3 class="category">Příprava na sportovní výkon</h3>
-                                        <h1 class="bs-caption"><small style="font-size: 20px">Od</small> 2600<small style="font-size: 20px">Kč/měs</small></h1>
+                                        <h4 class="bs-caption">Individuální<small style="font-size: 20px"> Cena</small></h4>
                                         <ul>
-                                            <li>Kulturistika / fitness</li>
-                                            <li>Silový trojboj / strongman</li>
+                                            <li>Kulturistika / Fitness</li>
+                                            <li>Silový trojboj / Strongman</li>
                                             <li>Atletika</li>
                                             <li>Vytrvalostní sporty</li>
                                         </ul>
@@ -37,7 +37,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">
                                 <div class="bs bs-pricing" @mouseenter="secondEnable" @mouseleave="secondDisable" :class="{'bg-danger': this.secondToggled}">
                                     <div class="cotent">
                                         <h3 class="category">Online coaching</h3>
@@ -217,5 +217,9 @@
     }
     .bs-pricing-four .bs-pricing ul:not(.nav-pills) li{
         border-bottom: 0.5px solid rgba(27, 27, 27, 0.7);
+    }
+
+    :root {
+        --animate-delay: 0.2s;
     }
 </style>

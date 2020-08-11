@@ -3,8 +3,8 @@
         <section class="page-section" id="kontakt">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Jsi připraven na změnu?</h2>
-                    <h3 class="section-subheading text-muted">Tak vyplň tenhle formulář, nebo rovnou zavolej na +420 725 883 314.</h3>
+                    <h2 class="section-heading text-uppercase" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">Jsi připraven na změnu?</h2>
+                    <h3 class="section-subheading text-muted" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="400" data-aos-once="true">Tak vyplň tenhle formulář, nebo rovnou zavolej na +420 725 883 314.</h3>
                 </div>
                 <transition name="fade" mode="out-in">
                     <div v-if="formMistake" class="alert alert-danger text-center" role="alert">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </form>
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
                     <div id="success"></div>
                     <a href="#kontakt" class="btn btn-primary-contact btn-xl text-uppercase" @click="sendUserData">Jdu do toho!</a>
                 </div>

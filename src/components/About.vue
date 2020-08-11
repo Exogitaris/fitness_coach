@@ -9,7 +9,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/about/climb.jpg" alt="" /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-panel" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
                             <div class="timeline-heading">
                                 <h4>2012</h4>
                                 <h4 class="subheading">Moje proměna od píky na vrchol</h4>
@@ -19,7 +19,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/about/michal.jpg" alt="" /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-panel" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="300" data-aos-once="true">
                             <div class="timeline-heading">
                                 <h4>2016</h4>
                                 <h4 class="subheading">Závody v kulturistice</h4>
@@ -29,7 +29,7 @@
                     </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/about/trainer.jpg" alt="" /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-panel" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="400" data-aos-once="true">
                             <div class="timeline-heading">
                                 <h4>Současnost</h4>
                                 <h4 class="subheading">Fitness trenér</h4>
@@ -39,7 +39,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/about/finish.jpg" alt="" /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-panel" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="500" data-aos-once="true">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Dokončení trenérské školy</h4>
                             </div>
