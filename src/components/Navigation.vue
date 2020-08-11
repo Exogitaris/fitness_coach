@@ -48,16 +48,12 @@
                     this.collapseStyle = "height: 155px";
                 },1)
                 setTimeout(() => {
-                    this.collapseStyle = ''
                     this.collapsing = "collapse show"
                 },500);
             },
             hideMenu() {
-                this.collapseStyle = "height: 155px";
-                setTimeout(() => {
-                    this.collapsing = "collapsing";
-                    this.collapseStyle = ''
-                },1)
+                this.collapsing = "collapsing";
+                this.collapseStyle = ''
                 setTimeout(() => {
                     this.collapsing = "collapse"
                 },500);
