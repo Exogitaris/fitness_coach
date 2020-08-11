@@ -49,11 +49,15 @@
                 },1)
                 setTimeout(() => {
                     this.collapsing = "collapse show"
+                    this.collapseStyle = ''
                 },500);
             },
             hideMenu() {
-                this.collapsing = "collapsing";
-                this.collapseStyle = ''
+                this.collapseStyle = "height: 155px";
+                setTimeout(() => {
+                    this.collapsing = "collapsing";
+                    this.collapseStyle = ''
+                },1)
                 setTimeout(() => {
                     this.collapsing = "collapse"
                 },500);
