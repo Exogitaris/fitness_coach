@@ -34,11 +34,9 @@
             openMenu() {
                 if (this.menuOpen === false) {
                     this.menuClass = "menu-btn open";
-                    this.menuOpen = true;
                     this.showMenu();
                 } else {
                     this.menuClass = "menu-btn";
-                    this.menuOpen = false;
                     this.hideMenu();
                 }
             },
@@ -46,10 +44,11 @@
                 this.collapsing = "collapsing";
                 setTimeout(() => {
                     this.collapseStyle = "height: 155px";
-                },1)
+                },20)
                 setTimeout(() => {
                     this.collapsing = "collapse show"
                     this.collapseStyle = ''
+                    this.menuOpen = true
                 },500);
             },
             hideMenu() {
@@ -57,9 +56,10 @@
                 setTimeout(() => {
                     this.collapsing = "collapsing";
                     this.collapseStyle = ''
-                },1)
+                },20)
                 setTimeout(() => {
                     this.collapsing = "collapse"
+                    this.menuOpen = false
                 },500);
             }
         }
