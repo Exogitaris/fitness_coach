@@ -104,25 +104,8 @@
                     first: false,
                     second: false,
                     third: false
-                },
-                photos: {
-                    firstPerson: {
-                        first: '',
-                        second: ''
-                    },
-                    secondPerson: {
-                        first: '',
-                        second: ''
-                    },
-                    thirdPerson: {
-                        first: '',
-                        second: ''
-                    }
                 }
             }
-        },
-        methods: {
-
         }
     }
 </script>
