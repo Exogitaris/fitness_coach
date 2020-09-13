@@ -3,7 +3,7 @@
         <section class="page-section" id="kontakt">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">Jsi připraven na změnu?</h2>
+                    <h2 class="section-heading text-uppercase" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">Jsi připraven/a na změnu?</h2>
                     <h3 class="section-subheading text-muted" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="400" data-aos-once="true">Tak vyplň tenhle formulář, nebo rovnou zavolej na +420 725 883 314.</h3>
                 </div>
                 <transition name="fade" mode="out-in">
