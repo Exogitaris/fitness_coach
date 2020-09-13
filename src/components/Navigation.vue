@@ -10,7 +10,7 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sluzby">Služby</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#zkusenosti">O mně</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#klienti">Klienti</a></li> -->
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#klienti">Klienti</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cenik">Ceník</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#kontakt">Kontakt</a></li>
                     </ul>

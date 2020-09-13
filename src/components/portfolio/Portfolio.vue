@@ -3,9 +3,9 @@
         <section class="page-section bg-dark" id="klienti">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase" style="color: #fff">klienti</h2>
+                    <h2 class="section-heading text-uppercase" style="color: #fff">co o mně napsali klienti</h2>
                 </div>
-                <div class="row">
+               <!-- <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300" data-aos-once="true">
                     <br><br>
                     <button class="btn btn-primary-contact text-uppercase" style="font-size: 20px" @click="toggleReviews">recenze služeb <font-awesome-icon icon="comments" size="lg" /></button>

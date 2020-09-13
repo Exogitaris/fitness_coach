@@ -5,8 +5,8 @@
     <app-michal></app-michal>
     <app-services></app-services>
     <app-about></app-about>
-    <!-- <app-portfolio></app-portfolio>
-    <app-modals></app-modals> -->
+    <app-portfolio></app-portfolio>
+    <app-modals></app-modals>
     <app-pricing></app-pricing>
     <transition name="component-fade" mode="out-in">
       <component @form-posted="formCompleted" :is="formComponent"></component>
@@ -20,8 +20,8 @@
   import Masthead from "./components/Masthead.vue";
   import Michal from "./components/Michal";
   import Services from "./components/Services.vue";
-  //import Portfolio from "./components/portfolio/Portfolio.vue";
-  //import Modals from "./components/portfolio/Modals.vue";
+  import Portfolio from "./components/portfolio/Portfolio.vue";
+  import Modals from "./components/portfolio/Modals.vue";
   import About from "./components/About.vue";
   import Pricing from "./components/Pricing.vue";
   import Contact from "./components/Contact.vue";
@@ -44,8 +44,8 @@
       appMasthead: Masthead,
       appMichal: Michal,
       appServices: Services,
-      //appPortfolio: Portfolio,
-      //appModals: Modals,
+      appPortfolio: Portfolio,
+      appModals: Modals,
       appAbout: About,
       appPricing: Pricing,
       appContact: Contact,
