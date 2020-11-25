@@ -9,7 +9,7 @@
     <app-modals></app-modals>
     <app-pricing></app-pricing>
     <transition name="component-fade" mode="out-in">
-      <component @form-posted="formCompleted" :is="formComponent"></component>
+      <component @form-posted="formCompleted($event)" :is="formComponent"></component>
     </transition>
     <app-footer></app-footer>
   </div>
@@ -26,6 +26,7 @@
   import Pricing from "./components/Pricing.vue";
   import Contact from "./components/Contact.vue";
   import ContactCompleted from "./components/ContactCompleted.vue";
+  import ContactFailed from "./components/ContactFailed";
   import Footer from "./components/Footer.vue";
 
   export default {
@@ -35,8 +36,12 @@
       }
     },
     methods: {
-      formCompleted() {
-        this.formComponent = 'app-contact-completed';
+      formCompleted(event) {
+        if (event === false) {
+          this.formComponent = 'app-contact-completed';
+        } else {
+          this.formComponent = 'app-contact-failed';
+        }
       }
     },
     components: {
@@ -50,6 +55,7 @@
       appPricing: Pricing,
       appContact: Contact,
       appContactCompleted: ContactCompleted,
+      appContactFailed: ContactFailed,
       appFooter: Footer
     }
   }

@@ -46,6 +46,7 @@
                                             <li><b>3 měsíce</b> 7.500Kč</li>
                                             <li><b>6 měsíců</b> 15.000Kč</li>
                                             <li><b>12 měsíců</b> 28.000Kč</li>
+                                            <li><b>+ Osobní trénink</b> <s>500Kč</s> / <b>300Kč</b></li>
                                         </ul>
                                         <a href="#kontakt" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
                                     </div>
