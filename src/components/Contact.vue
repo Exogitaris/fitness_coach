@@ -82,7 +82,7 @@
                     selectedOption: 'Osobní trénink'
                 },
                 reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
-                options: ['Osobní trénink', 'Online Coaching', 'Příprava na sportovní výkon', 'Jiné'],
+                options: ['Osobní trénink', 'Online Coaching', 'Příprava na sportovní výkon','Kondiční skupinové tréninky', 'Osobní trénink pro dva', 'Jiné'],
               error: false,
               spinner: false
             }
@@ -99,6 +99,14 @@
             eventBus.$on('thirdOptionSelected', (data) => {
                 this.userData.selectedOption = data
                 this.userData.message = 'Ahoj Michale! Mám zájem o tvou službu ' + this.userData.selectedOption + '!';
+            });
+            eventBus.$on('fourthOptionSelected', (data) => {
+              this.userData.selectedOption = data
+              this.userData.message = 'Ahoj Michale! Mám zájem o tvou službu ' + this.userData.selectedOption + '!';
+            });
+            eventBus.$on('fifthOptionSelected', (data) => {
+              this.userData.selectedOption = data
+              this.userData.message = 'Ahoj Michale! Mám zájem o tvou službu ' + this.userData.selectedOption + '!';
             });
         },
         methods: {

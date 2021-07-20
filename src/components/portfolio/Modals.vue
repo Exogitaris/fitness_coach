@@ -9,19 +9,19 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Petra</h2>
+                                    <h2 class="text-uppercase surname"><small>Dlougošová</small></h2>
                                     <label class="switch">
                                         <input type="checkbox" v-model="toggles.first">
                                         <span class="slider round"></span>
                                     </label>
                                     <p>PŘED / PO</p>
-                                    <img v-if="toggles.first" class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/persona2.jpg" alt="" />
-                                    <img v-else class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/persona1.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <img v-if="toggles.first" class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/petapofull.png" alt="" />
+                                    <img v-else class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/petapredfull.png" alt="" />
+                                    <p>Nikdy som nechcela držať diétu, ani držať niečo poriadne, lebo som si myslela, že to nezvládnem a bude to náročné. Míša ma presvedčil o tom, že dokážem v živote všetko čo chcem a že aj tú dietu a režim zvládnem ako nič. A tak vznikol náš 3-mesačný challenge. Nebudem klamať, občas to bolo ťažšie, ale Michal mi bol veľkou oporou. Je to Trener s veľkým T s jeho úžasným prístupom a hlavne výsledkami. Za 3 mesiace som schudla neuveriteľných 23kg. Určite to nebola posledná spolupráca, pretože v spolupráci s Michalom zvládne každý úplne nemožné a hlavne dojde nad rámec svojich možnosti. Odporúčam a určite sa zas vrátim pre lepšie výsledky.</p>
                                     <ul class="list-inline">
-                                        <li>Datum: Srpen 2020</li>
-                                        <li>Klient: Petra</li>
-                                        <li>Kategorie: Fitness</li>
+                                        <li>Progress: 15.5.2019 – 16.8.2020</li>
+                                        <li>Věk: 23 let</li>
                                     </ul>
                                     <button class="btn btn-danger text-uppercase" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Zavřít</button>
                                 </div>
@@ -41,18 +41,19 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Petr</h2>
+                                    <h2 class="text-uppercase surname"><small>Zasadil</small></h2>
                                     <label class="switch">
                                         <input type="checkbox" v-model="toggles.second">
                                         <span class="slider round"></span>
                                     </label>
                                     <p>PŘED / PO</p>
-                                    <img class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/icon_people.webp" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <img v-if="toggles.second" class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/petrpofull.png" alt="" />
+                                    <img v-else class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/petrpredfull.png" alt="" />
+                                    <p>Petr trávil každý den přes deset hodin prací u počítače. Sport a se jeho života dotýkal pouze okrajově dokud jsme na sebe nenarazili. Stravovací návyky byly někde na bodu mrazu. (bageta z benzínky atp..). Během těchto 9 měsíců jsem Petrovi dokázal vytřídit priority v životě. Zdraví vystřídalo práci na prvním místě a Petr nabral přes 10kg svalové hmoty. Cítí se výborně a nehodlá se nikdy vrátit ke starému životnímu stylu.</p>
                                     <ul class="list-inline">
-                                        <li>Datum: Září 2020</li>
-                                        <li>Klient: Jakub</li>
-                                        <li>Kategorie: Kulturistika</li>
+                                        <li>Progress: 16.9.2020 – 14.6.2021</li>
+                                        <li>Věk: 36 let</li>
                                     </ul>
                                     <button class="btn btn-danger text-uppercase" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Zavřít</button>
                                 </div>
@@ -72,18 +73,19 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Tomáš</h2>
+                                    <h2 class="text-uppercase surname"><small>Smetana</small></h2>
                                     <label class="switch">
                                         <input type="checkbox" v-model="toggles.third">
                                         <span class="slider round"></span>
                                     </label>
                                     <p>PŘED / PO</p>
-                                    <img class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/icon_people.webp" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <img v-if="toggles.third" class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/tompofull.png" alt="" />
+                                    <img v-else class="img-fluid d-block mx-auto" src="../../assets/img/portfolio/tompredfull.png" alt="" />
+                                    <p>Tomáš měl prahnoucí touhu po tom oběvit břišní svaly svého těla. Během jednoho měsíce se nám s pravidelným cvičením, jídelníčkem a spoustou odříkání povedlo zhubnout tuk a vytáhnout všechny svaly hezky na povrch. Tomáš si splnil svůj cíl a dále se věnuje nabírání více svalové hmoty aby nám všem příští roky vytřel zrak a dokázal, že lenost je opravdu jen lenost a musí se s ní bojovat!</p>
                                     <ul class="list-inline">
-                                        <li>Datum: Duben 2019</li>
-                                        <li>Klient: David</li>
-                                        <li>Kategorie: Atletika</li>
+                                        <li>Progress: 22.12.2020 – 22.1.2021</li>
+                                        <li>Věk: 14 let</li>
                                     </ul>
                                     <button class="btn btn-danger text-uppercase" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Zavřít</button>
                                 </div>
@@ -203,5 +205,9 @@
     }
     .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
         opacity: 0;
+    }
+
+    small {
+      font-size: 60%;
     }
 </style>

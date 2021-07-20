@@ -3,20 +3,19 @@
         <section class="page-section bg-dark" id="klienti">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase" style="color: #fff">co o mně napsali klienti</h2>
+                    <h2 class="section-heading text-uppercase" style="color: #fff">výsledky mé práce</h2>
                 </div>
-               <!-- <div class="row">
+                <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
                             ><div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                                <img class="img-fluid" src="../../assets/img/portfolio/persona1.jpg" alt=""
+                                <img class="img-fluid" src="../../assets/img/portfolio/petapo.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading" style="color: #fff">Petra</div>
-                                <div class="portfolio-caption-subheading text-muted">Fitness</div>
                                 <a data-toggle="modal" href="#portfolioModal1"><button class="btn btn-danger">Detail</button></a>
                             </div>
                         </div>
@@ -27,11 +26,10 @@
                             ><div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                                <img class="img-fluid" src="../../assets/img/portfolio/persona2.jpg" alt=""
+                                <img class="img-fluid" src="../../assets/img/portfolio/petrpo.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading" style="color: #fff">Jakub</div>
-                                <div class="portfolio-caption-subheading text-muted">Kulturistika</div>
+                                <div class="portfolio-caption-heading" style="color: #fff">Petr</div>
                                 <a data-toggle="modal" href="#portfolioModal2"><button class="btn btn-danger">Detail</button></a>
                             </div>
                         </div>
@@ -42,16 +40,15 @@
                             ><div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                                <img class="img-fluid" src="../../assets/img/portfolio/persona3.jpg" alt=""
+                                <img class="img-fluid" src="../../assets/img/portfolio/tompo.jpg" alt=""
                                 /></a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading" style="color: #fff">David</div>
-                                <div class="portfolio-caption-subheading text-muted">Atletika</div>
+                                <div class="portfolio-caption-heading" style="color: #fff">Tomáš</div>
                                 <a data-toggle="modal" href="#portfolioModal3"><button class="btn btn-danger">Detail</button></a>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300" data-aos-once="true">
                     <br><br>
                     <button class="btn btn-primary-contact text-uppercase" style="font-size: 20px" @click="toggleReviews">recenze služeb <font-awesome-icon icon="comments" size="lg" /></button>
