@@ -7,37 +7,37 @@
           </div>
           <div id="bs-pricing-six" class="bs-pricing-four roomy-50 fix">
             <div class="container">
-              <VueSlickCarousel v-bind="settings" style="color: black">
-                <div class="odsazeni" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="400" data-aos-once="true">
+              <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
                   <div class="bs bs-pricing" @mouseenter="firstEnable" @mouseleave="firstDisable" :class="{'bg-danger': this.firstToggled}">
                     <div class="cotent">
                       <h3 class="category">Osobní trénink</h3>
-                      <h1 class="bs-caption">500<small style="font-size: 20px">Kč</small></h1>
+                      <h1 class="bs-caption">600<small style="font-size: 20px">Kč</small></h1>
                       <ul>
-                        <li><b>10</b> tréninků 4.500Kč</li>
-                        <li><b>20</b> tréninků 8.500Kč</li>
+                        <li><b>10</b> tréninků 5.200Kč</li>
+                        <li><b>20</b> tréninků 9.500Kč</li>
                         <li>Konzultace za cenu tréninku</li>
                       </ul>
                       <a href="#kontakt" class="btn" :class="[this.firstToggled ? 'btn-white' : 'btn-danger']" @click="firstOption">Objednat</a>
                     </div>
                   </div>
                 </div>
-                <div class="odsazeni" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">
-                  <div class="bs bs-pricing" @mouseenter="thirdEnable" @mouseleave="thirdDisable" :class="{'bg-danger': this.thirdToggled}">
-                    <div class="cotent">
-                      <h3 class="category">Příprava na sportovní výkon</h3>
-                      <h4 class="bs-caption">Individuální<small style="font-size: 20px"> Cena</small></h4>
-                      <ul>
-                        <li>Kulturistika / Fitness</li>
-                        <li>Silový trojboj / Strongman</li>
-                        <li>Atletika</li>
-                        <li>Vytrvalostní sporty</li>
-                      </ul>
-                      <a href="#kontakt" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']" @click="thirdOption">Objednat</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="odsazeni" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">
+                <!--                <div class="odsazeni" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">-->
+                <!--                  <div class="bs bs-pricing" @mouseenter="thirdEnable" @mouseleave="thirdDisable" :class="{'bg-danger': this.thirdToggled}">-->
+                <!--                    <div class="cotent">-->
+                <!--                      <h3 class="category">Příprava na sportovní výkon</h3>-->
+                <!--                      <h4 class="bs-caption">Individuální<small style="font-size: 20px"> Cena</small></h4>-->
+                <!--                      <ul>-->
+                <!--                        <li>Kulturistika / Fitness</li>-->
+                <!--                        <li>Silový trojboj / Strongman</li>-->
+                <!--                        <li>Atletika</li>-->
+                <!--                        <li>Vytrvalostní sporty</li>-->
+                <!--                      </ul>-->
+                <!--                      <a href="#kontakt" class="btn" :class="[this.thirdToggled ? 'btn-white' : 'btn-danger']" @click="thirdOption">Objednat</a>-->
+                <!--                    </div>-->
+                <!--                  </div>-->
+                <!--                </div>-->
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="400" data-aos-once="true">
                   <div class="bs bs-pricing" @mouseenter="secondEnable" @mouseleave="secondDisable" :class="{'bg-danger': this.secondToggled}">
                     <div class="cotent">
                       <h3 class="category">Online coaching</h3>
@@ -46,38 +46,38 @@
                         <li><b>3 měsíce</b> 7.500Kč</li>
                         <li><b>6 měsíců</b> 15.000Kč</li>
                         <li><b>12 měsíců</b> 28.000Kč</li>
-                        <li><b>+ Osobní trénink</b> <s>500Kč</s> / <b>300Kč</b></li>
+                        <li><b>+ Osobní trénink</b> <s>600Kč</s> / <b>350Kč</b></li>
                       </ul>
                       <a href="#kontakt" class="btn" :class="[this.secondToggled ? 'btn-white' : 'btn-danger']" @click="secondOption">Objednat</a>
                     </div>
                   </div>
                 </div>
-                <div class="odsazeni"  data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">
-                  <div class="bs bs-pricing" @mouseenter="fourthEnable" @mouseleave="fourthDisable" :class="{'bg-danger': this.fourthToggled}">
-                    <div class="cotent">
-                      <h3 class="category">Kondiční skupinové tréninky</h3>
-                      <h1 class="bs-caption">3000<small style="font-size: 20px">Kč/měs</small></h1>
-                      <ul>
-                        <li><b>Neomezeně</b> od PO do PA</li>
-                      </ul>
-                      <a href="#kontakt" class="btn" :class="[this.fourthToggled ? 'btn-white' : 'btn-danger']" @click="fourthOption">Objednat</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="odsazeni" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200" data-aos-once="true">
+                <!--                <div class="odsazeni"  data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">-->
+                <!--                  <div class="bs bs-pricing" @mouseenter="fourthEnable" @mouseleave="fourthDisable" :class="{'bg-danger': this.fourthToggled}">-->
+                <!--                    <div class="cotent">-->
+                <!--                      <h3 class="category">Kondiční skupinové tréninky</h3>-->
+                <!--                      <h1 class="bs-caption">3000<small style="font-size: 20px">Kč/měs</small></h1>-->
+                <!--                      <ul>-->
+                <!--                        <li><b>Neomezeně</b> od PO do PA</li>-->
+                <!--                      </ul>-->
+                <!--                      <a href="#kontakt" class="btn" :class="[this.fourthToggled ? 'btn-white' : 'btn-danger']" @click="fourthOption">Objednat</a>-->
+                <!--                    </div>-->
+                <!--                  </div>-->
+                <!--                </div>-->
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="600" data-aos-once="true">
                   <div class="bs bs-pricing" @mouseenter="fifthEnable" @mouseleave="fifthDisable" :class="{'bg-danger': this.fifthToggled}">
                     <div class="cotent">
                       <h3 class="category">Osobní trénink pro dva</h3>
-                      <h1 class="bs-caption">300<small style="font-size: 20px">Kč/os</small></h1>
+                      <h1 class="bs-caption">350<small style="font-size: 20px">Kč/os</small></h1>
                       <ul>
-                        <li><b>1</b> trénink 300Kč na osobu</li>
-                        <li><b>10</b> tréninků 3000Kč na osobu</li>
+                        <li><b>1</b> trénink 350Kč na osobu</li>
+                        <li><b>10</b> tréninků 3500Kč na osobu</li>
                       </ul>
                       <a href="#kontakt" class="btn" :class="[this.fifthToggled ? 'btn-white' : 'btn-danger']" @click="fifthOption">Objednat</a>
                     </div>
                   </div>
                 </div>
-              </VueSlickCarousel>
+              </div>
             </div>
           </div>
         </div>
@@ -86,58 +86,58 @@
 </template>
 
 <script>
-    import VueSlickCarousel from 'vue-slick-carousel'
-    import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-    // optional style for arrows & dots
-    import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+    // import VueSlickCarousel from 'vue-slick-carousel'
+    // import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+    // // optional style for arrows & dots
+    // import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
     import { eventBus } from '../main';
 
     export default {
         data() {
             return {
-                settings: {
-                  centerMode: true,
-                  centerPadding: "20px",
-                  focusOnSelect: true,
-                  infinite: true,
-                  slidesToShow: 3,
-                  speed: 500,
-                  arrows: true,
-                  dots: true,
-                  responsive: [
-                    {
-                      breakpoint: 1024,
-                      settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                      }
-                    },
-                    {
-                      breakpoint: 991,
-                      settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        initialSlide: 2
-                      }
-                    },
-                    {
-                      breakpoint: 768,
-                      settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                      }
-                    },
-                    {
-                      breakpoint: 350,
-                      settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                      }
-                    }
-                  ]
-                },
+                // settings: {
+                //   centerMode: true,
+                //   centerPadding: "20px",
+                //   focusOnSelect: true,
+                //   infinite: true,
+                //   slidesToShow: 3,
+                //   speed: 500,
+                //   arrows: true,
+                //   dots: true,
+                //   responsive: [
+                //     {
+                //       breakpoint: 1024,
+                //       settings: {
+                //         slidesToShow: 3,
+                //         slidesToScroll: 3,
+                //         infinite: true,
+                //         dots: true
+                //       }
+                //     },
+                //     {
+                //       breakpoint: 991,
+                //       settings: {
+                //         slidesToShow: 2,
+                //         slidesToScroll: 2,
+                //         initialSlide: 2
+                //       }
+                //     },
+                //     {
+                //       breakpoint: 768,
+                //       settings: {
+                //         slidesToShow: 1,
+                //         slidesToScroll: 1,
+                //       }
+                //     },
+                //     {
+                //       breakpoint: 350,
+                //       settings: {
+                //         slidesToShow: 1,
+                //         slidesToScroll: 1,
+                //       }
+                //     }
+                //   ]
+                // },
                 firstToggled: false,
                 secondToggled: false,
                 thirdToggled: false,
@@ -146,8 +146,8 @@
                 options: {
                     first: 'Osobní trénink',
                     second: 'Online Coaching',
-                    third: 'Příprava na sportovní výkon',
-                    fourth: 'Kondiční skupinové tréninky',
+                    // third: 'Příprava na sportovní výkon',
+                    // fourth: 'Kondiční skupinové tréninky',
                     fifth: 'Osobní trénink pro dva'
                 }
             }
@@ -165,18 +165,18 @@
             secondDisable() {
                 this.secondToggled = false;
             },
-            thirdEnable() {
-                this.thirdToggled = true;
-            },
-            thirdDisable() {
-                this.thirdToggled = false;
-            },
-            fourthEnable() {
-                this.fourthToggled = true;
-            },
-            fourthDisable() {
-                this.fourthToggled = false;
-            },
+            // thirdEnable() {
+            //     this.thirdToggled = true;
+            // },
+            // thirdDisable() {
+            //     this.thirdToggled = false;
+            // },
+            // fourthEnable() {
+            //     this.fourthToggled = true;
+            // },
+            // fourthDisable() {
+            //     this.fourthToggled = false;
+            // },
             fifthEnable() {
                 this.fifthToggled = true;
             },
@@ -189,28 +189,28 @@
             secondOption() {
                 eventBus.$emit('secondOptionSelected', this.options.second)
             },
-            thirdOption() {
-                eventBus.$emit('thirdOptionSelected', this.options.third)
-            },
-            fourthOption() {
-              eventBus.$emit('fourthOptionSelected', this.options.fourth)
-            },
+            // thirdOption() {
+            //     eventBus.$emit('thirdOptionSelected', this.options.third)
+            // },
+            // fourthOption() {
+            //   eventBus.$emit('fourthOptionSelected', this.options.fourth)
+            // },
             fifthOption() {
               eventBus.$emit('fifthOptionSelected', this.options.fifth)
             },
         },
       components: {
-          VueSlickCarousel
+          // VueSlickCarousel
       }
     }
 </script>
 
 <style>
 
-    .odsazeni {
-      padding-right: 0.75rem;
-      padding-left: 0.75rem;
-    }
+    /*.odsazeni {*/
+    /*  padding-right: 0.75rem;*/
+    /*  padding-left: 0.75rem;*/
+    /*}*/
     .jumbotron h1 {
         margin-bottom: 40px;
     }
@@ -327,10 +327,10 @@
       }
     }
 
-    button.slick-prev:before, button.slick-next:before {
-      color: #1f1f1f !important;
-      font-size: 30px !important;
-    }
+    /*button.slick-prev:before, button.slick-next:before {*/
+    /*  color: #1f1f1f !important;*/
+    /*  font-size: 30px !important;*/
+    /*}*/
 
     :root {
         --animate-delay: 0.2s;
